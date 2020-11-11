@@ -24,7 +24,7 @@ export const Card = ({data}) => {
     img: {
       boxShadow: '1px 2px 30px 8px rgba(0,0,0,0.61)',
       height: '80%',
-      width: '20%',
+      width: '100%',
     },
     tagBox: {
       backgroundColor: 'white',

@@ -19,7 +19,7 @@ export const TVSeries = () => {
 
   return (
     <>
-      <h1 className="text-white mb-5" style={{color: '#DFDFDF', fontSize:23}}> Trending Series</h1>
+      <h1 className="text-white mb-5" style={{color: '#DFDFDF', fontSize:23}}>Tv Series List</h1>
       <div className="row">
       {
         data.allTVSeries.map( (series, idx) => {

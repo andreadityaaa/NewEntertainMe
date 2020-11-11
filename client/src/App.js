@@ -16,13 +16,13 @@ function App() {
   
   const styles = {
     body: {
-      paddingLeft: 200, 
+      paddingLeft: 100, 
       paddingTop: 50, 
       paddingBottom: 40,
       marginLeft: 0,
       backgroundSize: 'cover',
       overflow: 'hidden',
-      backgroundImage: `url(https://3.bp.blogspot.com/-DmY9aYpkq_s/WAi3HDbDb2I/AAAAAAAACD0/fRKp2BOgjBoYtyD8y2iQIZvSs_nJxFAQgCLcB/s1600/Batman%2BBackgrounds%2B9.jpg)`
+      backgroundImage: `url(https://www.slashgear.com/wp-content/uploads/2020/04/star-wars-backgrounds-25.jpg)`
     },
     wrapper: {
       marginRight:0, 

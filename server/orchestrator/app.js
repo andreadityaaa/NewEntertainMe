@@ -9,5 +9,5 @@ app.use(express.urlencoded({ extended: true }))
 app.use(routes)
 
 app.listen(PORT , () => {
-  console.log("listening on ", PORT)
+  console.log(`Server running on Port ${PORT}`)
 })

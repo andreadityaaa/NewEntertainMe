@@ -28,7 +28,7 @@ export const Home = () => {
         <h1 className="text-white" style={{color: '#DFDFDF', fontSize:23}}>Movies</h1>
       </div>
       <div className="col-2" style={{paddingLeft: '7%'}}>
-        <Link className="btn" style={{backgroundColor: '#1F9AEC', borderColor:'#c0392b', color: "white"}} to={'/addMovie'}> add New Movie </Link>
+        <Link className="btn" style={{backgroundColor: '#1F9AEC', color: "white"}} to={'/addMovie'}>ADD MOVIE</Link>
       </div>
     </div>
       <div className="row">

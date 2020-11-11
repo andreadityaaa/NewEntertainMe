@@ -2,7 +2,7 @@ import React from 'react'
 import { GET_MOVIES } from '../queries/moviesQueries'
 import { useQuery } from '@apollo/client'
 import { Card } from '../components/Card'
-import { useLocation,Link } from 'react-router-dom'
+import { useLocation } from 'react-router-dom'
 
 
 export const Movies = () => {
@@ -23,10 +23,7 @@ export const Movies = () => {
       <div className="col-10">
         <h1 style={{color: '#DFDFDF', fontSize:23}}>Movies List</h1>
       </div>
-      <div className="col-2" style={{paddingLeft: '7%'}}>
-        <Link className="btn" style={{backgroundColor: '#1F9AEC', borderColor:'#c0392b', color: "white"}} to={'/addMovie'}>add New Movie</Link>
       </div>
-    </div>
       <div className="row">
       {
         data.movies.map( movie => {
